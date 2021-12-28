@@ -19,9 +19,6 @@ public class StorageConfig {
     @Value("${cloud.aws.credentials.secret-key}")
     private String secretKey;
 
-    @Value("${application.bucket.name}")
-    private String region;
-
     @Bean
     public AmazonS3 generateS3client() {
 
