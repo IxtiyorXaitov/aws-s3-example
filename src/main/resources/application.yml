@@ -14,7 +14,7 @@ cloud:
 
 application:
   bucket:
-    name: duo-files
+    name: ----
 
 #
 logging:
